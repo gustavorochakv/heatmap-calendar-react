@@ -170,7 +170,7 @@ class HeatMapGraph extends Component {
     render() {
         var calendar = this.state.calendar;
         var highestTotal = this.state.highestTotal;
-        var weekdayLabels = this.props.weekdayLabels || ["", "M", "", "W", "", "F", ""];
+        var weekdayLabels = this.props.weekdayLabels || ["D", "S", "T", "Q", "Q", "S", "S"];
 
         if (calendar !== undefined) {
             this.state.data.forEach(s => {
